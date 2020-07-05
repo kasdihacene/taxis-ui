@@ -14,12 +14,33 @@ A prototype application that calculates the price of a ride/journey for the Pari
 
 :large_blue_diamond: **TECH STACK**
 
+>       FRONTEND
+
         - create-react-app
         - ReactJS
         - react-bootstrap
         - ReactJS Hooks
 
+>       BACKEND
 
+        - TDD OutsideIn Approach using java 11
+        - Spring Boot
+        - maven
+        - CI with GitHub Actions
+
+
+### Some prototypes
+
+        - When a ride is longer than 2 miles, give it a red background.
+        - For each ride, query and then display its price within the “Ride” component
+
+![](markdown/capt1.PNG)
+
+        - On click, the ride component should display an html alert with the ride duration, in
+        the hh:mm:ss format as well as the end time of the ride. 
+        - After	being click, the Ride component should have the	word Clicked beside	the	ride ID.
+
+![](markdown/capt2.PNG)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
