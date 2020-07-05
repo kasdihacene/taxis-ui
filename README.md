@@ -1,3 +1,27 @@
+### :construction_worker: About Paris Taxi Fare
+A prototype application that calculates the price of a ride/journey for the Paris Taxi Company fleet.
+
+> Response API
+
+    interface Ride {
+        id: number;
+        distance: number;
+        startTime: string; // ISO date
+        duration: number; // Duration in SECONDS
+    }
+
+### :construction_worker: What was it built with? 
+
+:large_blue_diamond: **TECH STACK**
+
+        - create-react-app
+        - ReactJS
+        - react-bootstrap
+        - ReactJS Hooks
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
