@@ -3,12 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Ride from '../ride/Ride'
 
-
 const Board = ({rides}) => {
-
-const openDetails = (ride) =>{
-    console.log(ride.distance)
-}
 
 return(
     <Container>
@@ -18,7 +13,6 @@ return(
                     <Ride 
                     ride={ride} 
                     index={index} 
-                    onClick={openDetails} 
                     key={index} 
                     />
                 ))

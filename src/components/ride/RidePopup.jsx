@@ -3,19 +3,22 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
 const RidePopup = ({show,handleClose,ride}) =>{
+
+    function computeDuration(duration){
+        return new Date(duration * 1000).toISOString().substr(11, 8)
+    }
+    
     return(
             
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Ride n° {ride.id}</Modal.Title>
             </Modal.Header>
-            <Modal.Body>{ride.id} - {ride.startTime}</Modal.Body>
+            <Modal.Body>
+            {computeDuration(ride.duration)} - {ride.startTime}</Modal.Body>
             <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-                Close
-            </Button>
             <Button variant="primary" onClick={handleClose}>
-                Save Changes
+                OK
             </Button>
             </Modal.Footer>
         </Modal>

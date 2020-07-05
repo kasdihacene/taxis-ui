@@ -47,5 +47,17 @@ export const FAKE_RIDES = [
   distance: 5,
   startTime: "2020-06-19T14:11:17.031Z",
   duration: 4000
+  },
+  {
+  id: 5,
+  distance: 4,
+  startTime: "2020-06-19T00:00:00.000Z",
+  duration: 9000
+  },
+  {
+  id: 6,
+  distance: 4,
+  startTime: "2020-06-19T06:00:00.000Z",
+  duration: 9000
   }
   ];
