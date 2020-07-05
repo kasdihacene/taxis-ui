@@ -38,7 +38,7 @@ A prototype application that calculates the price of a ride/journey for the Pari
 
         - On click, the ride component should display an html alert with the ride duration, in
         the hh:mm:ss format as well as the end time of the ride. 
-        - After	being click, the Ride component should have the	word Clicked beside	the	ride ID.
+        - After being click, the Ride component should have the word Clicked beside the ride ID.
 
 ![](markdown/capt2.PNG)
 
